@@ -1,0 +1,11 @@
+#ignore all temp files
+/dist
+/build
+*.pyc
+*.pyo
+*.egg-info
+/src/*.pyc
+/src/*.pyo
+__pycache__/
+*.py[cod]
+*.py~

@@ -1,0 +1,1 @@
+spark-submit --name pre_processing --master yarn --deploy-mode cluster --py-files ./application/code/pre_processing/pre_processing-0.1-py2.6.egg ./application/code/pre_processing/main.py --num-executors 10
