@@ -8,6 +8,7 @@ def main(sqlContext):
    df = sqlContext.read.text("sample.txt")
    df.show()
    total_rec = getCounts(df)
+   df.write.parquet("test_sample")
    print("Number of records :", total_rec)
 
 if __name__=='__main__':
